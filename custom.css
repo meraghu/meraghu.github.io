@@ -1,0 +1,292 @@
+/* CSS Document */
+
+.table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+letter-spacing:1px;
+
+}
+p{
+	font-family:"Open Sans",sans-serif;
+	
+}
+
+td{
+color:#727372;
+font-weight:500;
+}
+
+
+.form-control {
+    display: block;
+    width: 70%;
+    height: 34px;
+    /*padding: 12px 12px;*/
+    font-size: 14px;
+    line-height: 4.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 0px solid #ddd;
+	line-height: 2.428571;
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 0px;
+    line-height: 3.428571;
+    vertical-align: middle;
+    border-top: 0px solid #ddd;
+}
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #eee;
+}
+
+
+
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 5px 35px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 2px;
+	color:#7388AB;
+}
+
+.btn-primary {
+    color: #7388AB;
+    background-color: #DBDDDE;
+    border-color: #DBDDDE;
+}
+
+.table-bordered {
+    border: 0px solid #ddd;
+}
+
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 10px solid transparent; 
+	border-bottom-color:#4AA5EC;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #EEEFF1;
+}
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #C7C8C8;
+}
+h4{
+
+}
+
+
+.btn-success1 {
+   color: #171616 !important;
+    font-size: 16px;
+    background-color: #DBDCDD;
+    border-color: #c7c8c8;
+    border-bottom-color: #c7c8c8;
+    border-bottom: 4px solid #aaa;
+    height: 40px;
+}
+
+.btn-primary1{
+    color: #000;
+    background-color: #3379ae;
+    border-color: #DBDDDE;
+	
+}
+h1{
+	font-size:36px;
+	font-family:Montserrat;
+}
+h2{
+	font-size:30px;
+	font-family:Montserrat;
+}
+h3{
+	font-size:24px;
+	font-family:Montserrat;
+	    color: #4C4C4C;
+}
+input.btn.btn-lg.btn-primary {
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+    border-bottom: 4px solid #bbb;
+    height: 45px;
+    color: #4C4C4C;
+	
+}
+img.img-responsive {
+    height: 30px;
+}
+input.btn.btn-lg.btn-primary {
+    font-size: 16px;
+    font-family: sans-serif;
+    border-bottom: 4px solid #bbb;
+    height: 45px;
+    color: #aaa;
+}
+.h5, h5 ,h4{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+       -webkit-appearance: button;
+    cursor: pointer;
+    /*background-color: #0091FF!important;*/
+    font-size: 16px;
+    border-bottom: 4px solid #bbb;
+    
+    color: #000;
+    font-family:"Open Sans",sans-serif;
+}
+input.btn.btn-lg.btn-primary {
+    font-size: 16px;
+    font-family:"Open Sans",sans-serif;
+    border-bottom: 4px solid #bbb;
+    height: 45px;
+    color: #000;
+}
+.modal-content {
+    position: relative;
+    background-color: #F8FAFB;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+
+
+.form-control1 {
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 9px 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/*on and off buttom*/
+.lbl {
+    position: relative;
+    display: block;
+    height: 20px;
+    width: 44px;
+    background: #898989;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lbl:after {
+    position: absolute;
+    left: -2px;
+    top: -3px;
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 100px;
+    background: #fff;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+    content: '';
+    transition: all 0.3s ease;
+}
+
+.lbl:active:after { transform: scale(1.15, 0.85); }
+
+.cbx:checked ~ label { background: #4ba5ec; }
+
+.cbx:checked ~ label:after {
+    left: 20px;
+    background: #347aae;
+}
+
+.cbx:disabled ~ label {
+    background: #d5d5d5;
+    pointer-events: none;
+}
+
+.cbx:disabled ~ label:after { background: #bcbdbc; }
+
+.hidden { display: none; }
+/*on and off button*/
+
+.container .accounthead {
+    /*margin-left:15px;*/
+	margin:20px 0 -30px 15px;
+}
+.container .section{
+background-color:#F8FAFB;
+border: 1px solid #ddd;
+margin-left:50px;
+}
+.container .sectionhead {
+color:#60b3f4;
+/*margin-left:50px;*/
+margin:50px 0 -15px 50px;
+}
+.list-group
+{font-family:"Open Sans",san-serief;
+background-color:#F8FAFB;
+}
+.list-group-item
+{
+background-color:#F8FAFB;
+font-family:"Open Sans", sans-serief;
+}
+.list-group-item a
+{
+color:#89898a;
+text-decoration:none;
+}
+.list-group-item a:active
+{color:#0000FF;
+text-decoration:none;
+}
+.btn .btn-md{color:#000000;}
