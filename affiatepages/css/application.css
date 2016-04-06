@@ -1,0 +1,333 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+html,body{
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    line-height: normal;
+}
+.homebody{
+    background:url(mountains.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p{
+	font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+	line-height: normal;
+    margin: 0;
+}
+.center{
+	text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+
+input{
+    border:2px solid #CDCDCD;
+    border-radius: 3px;
+    height:40px;
+    width:340px;
+    max-width: 100%;
+    margin-top:5px;
+    margin-bottom:12px;
+    background-color: #F7F8FA;
+    -webkit-appearance:none;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+textarea{
+    width: 340px;
+    height:150px;
+    max-width: 100%;
+    background-color: #F7F8FA;
+    border:2px solid #CDCDCD;
+    border-radius: 3px;
+    margin-top:5px;
+    margin-bottom:12px;
+    outline: none;
+    max-width: 100%;
+    box-sizing: border-box;   
+    padding-left: 5px;
+    padding-top: 5px; 
+}
+.actions input{
+	background:#4A90E2;
+	color:white;
+	height:36px;
+	line-height:36px;
+	border-radius:2.5px;
+	border:none;
+	font-weight: bold;
+	font-size: 13px;
+}
+.error input{
+	border:2px solid #ce5851;
+}
+.error-message{
+    background: #e19e9d;
+    width: 340px;
+    margin-top: -14px;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ce5851;
+    border: 2px solid #ce5851;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.success{
+	font-weight: bold;
+	color:gray;
+	text-align: center;
+}
+.success a{
+	color:#61A6E8;
+}
+.success h1{
+	color:#58C535;
+}
+
+/*Content Area*/
+.content{
+    width:90%;
+    max-width:1000px;
+    padding:32px;
+    padding-bottom:64px;
+    position: relative;
+    left:50%;
+    transform:translate(-50%,0);
+    background:rgba(255,255,255,1);
+    overflow:hidden;
+    border-bottom: 2px solid white;
+    -ms-transform: translate(-50%,0); /* IE 9 */
+    -webkit-transform: translate(-50%,0); /* Safari */
+}
+
+/*Table*/
+.table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	display:inline-block;
+}
+th{
+	padding:8px;
+}
+
+.column-title{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size:16px;
+    line-height: 32px;
+}
+.column-line{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 20px;
+}
+.two-column-area{
+	width:100%;
+}
+.two-column-area .column{
+	width: 50%;
+	float: left;
+	height:100%;
+}
+.no-margin{
+    padding:0 !important;
+}
+.no-margin .center{
+    position: relative;
+}
+.column{
+	background-position: center center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	padding-bottom:64px;
+	box-sizing:border-box;
+}
+.commercial-building-image{
+	background-image:url(home_1.jpg);
+}
+.drone-image{
+	background-image: url(home_2.jpg);
+	font-size: 0;
+}
+.left.padded{
+	position: relative;
+	padding-left:10%;
+	padding-right:5%;
+	box-sizing:border-box;
+}
+.right.padded{
+	position: relative;
+	padding-left:5%;
+	padding-right:10%;
+	box-sizing:border-box;
+}
+
+/* Buttons */
+.button{
+    font-family: 'Open Sans';
+    text-align: center;
+    background:#4AA5EC;
+    color:white;
+    line-height:36px;
+    border-radius:2px;
+    border:none;
+    width: 340px;
+    max-width: 100%;
+    border-bottom: 4px solid #3479AE;
+    padding: 0px;
+    margin: 0px;
+}
+.button:hover{
+    background-color: #8BC5F3;
+}
+.button.narrow{
+	max-width:350px;
+	left:50%;
+	transform:translateX(-50%);
+}
+.button.sm{
+    width: 160px !important;
+}
+.button.md{
+    width: 200px;
+}
+.button.sm-weighted{
+    width: 20%;
+}
+.button.dashboard-btn{
+    width: 140px;
+    bottom: 25px;
+    right: 64px;
+    position: absolute;
+}
+.button a, .button a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    background: none;
+}
+.gray-button{
+    padding: 0px;
+    margin: 0px;
+    width: 160px;
+    background-color: #DBDCDD;
+    border: none;
+    color: #777777;
+    border-bottom: 4px solid #c7c8c8;
+}
+.gray-button:hover{
+    background-color: #EEEFF1;
+}
+.gray-button.cancel{
+    width: 120px;
+}
+.red-button{
+    padding: 0px;
+    margin: 0px;
+    width: 160px;
+    background-color: #e19e9d;
+    color: white;
+    border: none;
+    border-bottom: 4px solid #c03e3b;
+}
+/* Dark header for user */
+.dark-header{
+    background-color: #606060;
+}
+.dark-header .header-content .nav{
+    padding-top: 0px;
+}
+.dark-header .header-content .nav ul li{
+    padding-top: 13px;
+}
+.dark-header .bordered{
+    border: 2px solid white;
+    padding: 11px 28px 11px 28px;
+    border-radius: 5px;
+}
+.dark-header .header-content .nav ul li a,
+.dark-header .header-content .nav-access li a{
+    color: white;
+    letter-spacing: 0px;
+}
+.dark-header .logo{
+    background-position: -408px -103px;
+}
+
+
+/* User Dashboard */
+.user-dash{
+    width: 100%;
+    background-color: #ffffff;
+    padding-bottom: 80px;
+
+}
+.user-dash h3{
+    padding-left: 30px;
+    font-size: 30px;
+}
+.dashboard{
+    margin: 0px 120px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.dashboard h2{
+    color: black;
+    margin: 30px 0px;
+}
+.active-project{
+    margin-top: 40px;
+    border: 2px solid #eeeff1;
+    padding-top: 20px;
+    height: auto;
+    overflow: auto;
+    position: relative;
+    background-color: #f7f8fa;
+}
+.project-list{
+    min-height: 120px;
+}
+.project-list p{
+    margin-left: 30px;
+}
+
+
+/* Notice Bar */
+.notice-bar{
+    border:2px solid #ab8303;
+    background-color: #e2c875;
+    color: #be9418;
+    padding: 5px 10px 5px 30px;
+    margin: 30px 0px 10px 0px;
+    overflow: auto;
+}
+.exclamation {
+    font-weight: 800;
+    font-size: 35px;
+    float: left
+}
+.notice-message{
+    padding: 11px 30px;
+}
