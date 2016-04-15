@@ -77,3 +77,4 @@ select {
     box-sizing: border-box;
     padding-left: 5px;
 }
+#sidebar.sticky { float: none; position: fixed; top: 20px; z-index: 6; left: auto; }
