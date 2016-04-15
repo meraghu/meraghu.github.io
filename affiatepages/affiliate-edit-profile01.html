@@ -13,6 +13,11 @@
 </head>
 
 <body>
+<!--navigation - When this section is prsent, sticky side bar moves smoothly-->
+	    <nav>
+	    	<p>&nbsp;</p>
+	    </nav>
+	    <!--end navigation-->
 <div class='account'>
   <h1>Edit Profile </h1>
   <div id='sidebar'>
@@ -100,7 +105,7 @@
       <section class='modal-dialog' role='document' style='width: 670px;'>
         <div class='form_area popup_form'>
           <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
-            <span aria-hidden='true'>×</span>
+            <span aria-hidden='true'>Ã—</span>
           </button>
           <form>
             <h3>Change Your Password</h3>
@@ -120,7 +125,7 @@
       <section class='modal-dialog' role='document' style='width: 570px;'>
         <div class='form_area popup_form'>
           <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
-            <span aria-hidden='true'>×</span>
+            <span aria-hidden='true'>Ã—</span>
           </button>
           <form>
             <h3>Success</h3>
@@ -134,7 +139,7 @@
       <section class='modal-dialog' role='document' style='width: 670px;'>
         <div class='form_area popup_form'>
           <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
-            <span aria-hidden='true'>×</span>
+            <span aria-hidden='true'>Ã—</span>
           </button>
           <form>
             <h3>Add New Card</h3>
@@ -157,7 +162,7 @@
       <section class='modal-dialog' role='document' style='width: 670px;'>
         <div class='form_area popup_form'>
           <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
-            <span aria-hidden='true'>×</span>
+            <span aria-hidden='true'>Ã—</span>
           </button>
           <form>
             <h3>Update Card Information</h3>
@@ -181,13 +186,13 @@
       <section class='modal-dialog' role='document'>
         <div class='form_area popup_form'>
           <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
-            <span aria-hidden='true'>×</span>
+            <span aria-hidden='true'>Ã—</span>
           </button>
           <form>
             <h3>Deactivate Your Account</h3>
-            <p class='popup-message'>Deactivating means that no one will see your profile or projects. You won’t be able to access any of your project files through our website Referrals unless you reactivate.</p>
+            <p class='popup-message'>Deactivating means that no one will see your profile or projects. You wonâ€™t be able to access any of your project files through our website Referrals unless you reactivate.</p>
             <br>
-            <strong class='popup-message'>Please tell us why you’re leaving (optional):</strong>
+            <strong class='popup-message'>Please tell us why youâ€™re leaving (optional):</strong>
             <textarea></textarea>
             <input class='gray-button cancel' data-dismiss='modal' style='margin-left: 200px; margin-right: 15px; margin-top: 20px;' type='button' value='Cancel'>
             <input class='button sm' type='button' value='Deactivate'>
@@ -197,6 +202,19 @@
     </div>
   </div>
 </div>
-
+<!--js-->
+  		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="css/stickySidebar.js"></script>
+		
+		<script>
+		$(document).ready(function() {
+	
+			$('#sidebar').stickySidebar({
+				sidebarTopMargin: 20,
+				footerThreshold: 100
+			});
+		
+		});
+		</script>
 </body>
 </html>
