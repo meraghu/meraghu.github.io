@@ -475,13 +475,12 @@ form.mar-bot-none{ margin-bottom:0;}
 .container{ max-width:1170px; width:100%; margin:auto;}
 
 /* left part */
+#sidebar {width:300px;}
 
-#sidebar{width:350px;}
-.left-sidebar ul{ margin:0; padding:0; border:3px solid #f0f1f3; padding:15px;}
-.left-sidebar ul li{ list-style:none;border-bottom:3px solid #f0f1f3; padding:10px 0;}
-.left-sidebar ul li a{ color:#dbddde; font-size:20px; font-weight:400; text-decoration:none;}
-.left-sidebar ul li:last-child{ border-bottom:none; padding-bottom:0;}
-.left-sidebar ul li:hover a, .left-sidebar ul li.active a{ color:#5eb3e4}
+.left-sidebar {padding:15px;border:3px solid #f0f1f3; background-color:#F8FAFB;}
+.left-sidebar .button-left{ margin:0 0 20px 0;}
+
+
 .button-left{ margin-top:25px;}
 .btn-default{ -moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px; border:none; font-size:18px; padding:15px 25px; display:inline-block; text-align:center;}
 .btn-default.db-gray{  background:#dbdcdd; color:#727372;border-bottom:4px solid #c7c8c8;}
@@ -554,9 +553,9 @@ form.mar-bot-none{ margin-bottom:0;}
 .title.affilate  a{color: #5eb3e4;display:inline-block;}
 .title.affilate h1{ margin-bottom:20px;}
 .title.affilate{ margin-bottom:30px;}
-.affiliate-sidebar{ padding:15px;border:3px solid #f0f1f3; background-color:#F8FAFB;}
-.affiliate-sidebar ul{ padding:0; border:none;}
-.affiliate-sidebar .button-left{ margin:0 0 20px 0;}
+
+
+
 .col-side{ margin-bottom:35px;}
 .col-side h3{ color:#727372; font-size:24px; font-weight:normal; margin-bottom:25px;}
 .right-content h4 a{ color:#5eb3e4}
