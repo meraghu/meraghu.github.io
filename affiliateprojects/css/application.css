@@ -369,7 +369,8 @@ th{
 .container h3{font-family:'Montserrat'; font-size:30px;}
 
 /* left part */
-#sidebar {width:300px;}
+
+/*#sidebar {width:300px;}*/
 
 .left-sidebar ul{ margin:0; padding:0; border:3px solid #f0f1f3; padding:15px; background-color:#f8fafb;}
 .left-sidebar ul li{ list-style:none;border-bottom:3px solid #f0f1f3; padding:10px 0;}
